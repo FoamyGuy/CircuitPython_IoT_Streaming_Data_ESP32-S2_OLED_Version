@@ -11,7 +11,8 @@ An IoT Streaming Data app that shows you how to take a JSON web API such as the 
 ![image](https://github.com/mytechnotalent/CircuitPython_IoT_Streaming_Data_ESP32-S2_OLED_Version/blob/main/schematic.png?raw=true)
 
 ## Parts
-[Adafruit Metro ESP32-S2](https://www.adafruit.com/product/4775)
+[Adafruit Metro ESP32-S2](https://www.adafruit.com/product/4775)<br>
+[0.96'' I2C IIC 12864 128X64 Pixel OLED LCD Display](https://www.amazon.com/IZOKEE-Display-SSD1306-Raspberry-White-IIC/dp/B076PDVFQD)
 
 ## Installation
 ```bash
