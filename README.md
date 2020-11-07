@@ -23,6 +23,7 @@ git clone https://github.com/mytechnotalent/CircuitPython_IoT_Streaming_Data_ESP
 lib\
 code.py 
 secrets.py
+font5x8.bin
 test_wrap_nicely.py [ORIGINAL SOURCE: https://github.com/adafruit/Adafruit_CircuitPython_PyPortal/blob/master/adafruit_pyportal.py]
 unittest.py [SOURCE: https://github.com/micropython/micropython-lib/blob/master/unittest/unittest.py]
 wrap_nicely.py
