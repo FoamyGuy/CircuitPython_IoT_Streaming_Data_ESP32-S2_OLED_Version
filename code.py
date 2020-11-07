@@ -14,12 +14,14 @@ from secrets import secrets
 
 def display_text(text, line):
     """Display text function
+
     Parameters
     ----------
     text : str
         Text to print
     line: int
         Line to print text on
+
     Returns
     -------
     None
