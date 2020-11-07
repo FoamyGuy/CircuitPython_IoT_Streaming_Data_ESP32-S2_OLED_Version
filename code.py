@@ -7,21 +7,19 @@ import ssl
 import socketpool
 import board
 import busio as io
-
+from wrap_nicely import wrap_nicely
 import adafruit_ssd1306
 
 from secrets import secrets
 
 def display_text(text, line):
     """Display text function
-
     Parameters
     ----------
     text : str
         Text to print
     line: int
         Line to print text on
-
     Returns
     -------
     None
@@ -83,7 +81,7 @@ while True:
             time.sleep(1)
             print(ARTICLE_JSON['title'])
             # TODO: Foamy if you can fiture out how to only wrap nicely this 'title' on this 1306 screen thanks!
-            display_text(ARTICLE_JSON['title'], 0)
+            display_text("\n".join(wrap_nicely(ARTICLE_JSON['title'], 18)), 0)
             time.sleep(10)
     except KeyboardInterrupt:
         break
